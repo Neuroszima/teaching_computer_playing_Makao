@@ -4,11 +4,15 @@
 
 This project was final project of a Genetic Algorithms lecture conducted by prof. Janusz Hołyst at Warsaw University of Technology, made by Mateusz Anuszewski and Grzegorz Matyszczak.
 
-The idea was to check if, by the given rules of card game "Makao", genetic algorithm can recreate those rules by creating population of Players, each with random Ruleset, and with the aim function of coins, distributed as reward or substracted as punishment functions.
+The idea was to check if, by the given rules of card game called "Makao", genetic algorithm can recreate those rules by creating population of Players, each with random Ruleset, and with the aim function of coins, distributed as reward or substracted as punishment functions, 
 
-Coin count decided of the certain Player class instance of better survivability, throwing right cards in the right circumstances (strategy was not included in this problem), rewarded Player with coins, and substracting them if conditions were not met and Player made a mistake. Across generations the aim is to have a Player with near exact same rules, represented by 52 "long" type numbers, as rules are set as byte 1's or 0's, and are checked with bytewise "AND" operations to sae computation time.
+Coin count decided of the certain Player class instance of better survivability (in other words, is an Aim Function in this program), playing right cards in the right circumstances (strategy was not included in this problem), rewarded Player with coins, and substracting them if conditions were not met and Player made a mistake. Across generations the aim is to have a Player with near exact same rules, represented by 52 "long" type numbers, as rules are set as byte 1's or 0's, and are checked with bytewise "AND" operations to sae computation time.
 
 Original thought included a text represantation of rules, and, while perhaps more flexible, we decided to take a look at byte representation of the rules, as it would enable us to set greater population numbers at the same time.
+
+Given the limited programming experience we had at the time of making this project, some instances might not output the desired solution. If you see so we'd be glad to hear about them, an fix those if possible.
+
+The language used mostly in this program is polish, since the project's main audience were using this language as their main. I will try to put a TODO list for this project with that in mind, and change that if possible.
 
 ## How does the code work (less detail explaination):
 
